@@ -24,7 +24,7 @@ $price_tiers = [500, 1000, 2000, 4000, 5000, 7000, 9000, 10000, 20000];
 // 3. BUILD THE INVENTORY REPORT TEXT
 $reportText = "📊 **TANConnect 12-Hour Inventory Status Report** 📊\n";
 $reportText .= "Generated at: " . date("Y-m-d H:i:s") . "\n";
-$reportText .= "---------------------------------------------------------------------------------\n";
+$reportText .= "-------------------------------------------------------------------------------------------\n";
 
 
 // Loop through each hardcoded price tier and check its stock count individually
