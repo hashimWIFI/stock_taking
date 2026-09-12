@@ -66,7 +66,7 @@ $conn->close();
 $streamOptions = [
     "http" => [
         "method"  => "POST",
-       "header"  => "Title: TANConnect Wi-Fi\r\nPriority: default\r\nTags: clipboard,chart_with_upwards_trend\r\n",
+       "header"  => "Title: TANConnect Wi-Fi",
         "content" => $reportText,
         "timeout" => 5
     ]
